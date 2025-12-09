@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🧠 Human Body Explorer  
+A 3D interactive learning tool that helps students understand human organs, body systems, and their functions through:
 
-# Run and deploy your AI Studio app
+✔ 3D organ viewer  
+✔ Interactive animations  
+✔ Organ facts  
+✔ Quiz sections for all organs  
+✔ Student-friendly UI  
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1fXbZwVX4HtUCIftW2sJiAROHUa2bbJeg
+## 🚀 Features
 
-## Run Locally
+### 🔬 3D Organ Viewer
+- View organs in **3D** (model-viewer)
+- Rotate, zoom, auto-rotate toggle
+- Works with fallback images when GLB is not available
 
-**Prerequisites:**  Node.js
+### 🧩 Interactive Quizzes
+- 5 questions per organ
+- Instant feedback:  
+  - **Correct:** "Good! 😊"  
+  - **Wrong:** "Better luck next time! ❌"
 
+### 🧠 Organ Information Panel
+- Shows body system
+- Quick facts
+- Educational tips
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🗂️ Project Structure
+
